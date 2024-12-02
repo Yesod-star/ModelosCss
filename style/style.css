@@ -1,0 +1,44 @@
+*{
+    /* ALTERA TUDO */
+}
+
+body{
+    /* ALTERA O CORPO DO SITE */
+    padding: 0;
+    margin: 0;
+    /* RETIRA MARGIN E PREENCHIMENTO DO SITE */
+}
+
+h1{
+    /* ALTERA TODOS OS TITULOS H1 */
+    font-size: 32px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    /* DEFINE COR, ESPESSURA, ALINHAMENTO E TAMANHO DO TEXTO */
+}
+
+.aluno{
+    /* ALTERA TODOS OS ITEMS COM A CLASSE ALUNO */
+    padding: 10px 10px 10px 10px;
+    /* DEFINE ESPESSURA NA ORDEM DE TOPO DIREITA BAIXO ESQUERDA */
+    margin: 10px 10px;
+    /* DEFINE MARGIN NA ORDEM TOPO BAIXO E DEPOIS ESQUERDA DIREITA */
+}
+
+.aluno h1{
+    /* ALTERA TODOS OS H1 DENTRO DE UM ITEM COM A CLASSE ALUNO */
+    background-color: red;
+    /* DEFINE COR DE FUNDO */
+}
+
+#logo{
+    /* ALTERA ITEM COM O ID logo */
+}
+
+#logo:hover{
+    /* ALTERA ITEM COM O ID logo QUANDO PASSAR O MOUSE EM CIMA */
+    cursor: pointer;
+    /* DEFINE NOVO MOUSE */
+}
+

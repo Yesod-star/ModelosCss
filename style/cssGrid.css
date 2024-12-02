@@ -1,0 +1,120 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    margin-bottom: 10px;
+}
+
+.experience {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+.contact {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
